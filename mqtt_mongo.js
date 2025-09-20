@@ -10,7 +10,7 @@ mq = mqtt.connect(broker, {
   'username': user,
   'password': pw
 });
-
+//Msa
 //tilataan oikea topic
 mq.subscribe('automaatio/#');
 
